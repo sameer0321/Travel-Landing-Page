@@ -1,0 +1,156 @@
+:root {
+
+    /* font families */
+    --ff-Poppins: 'Poppins', sans-serif;
+    --ff-Inter: 'Inter', sans-serif;
+    --ff-Sen: 'Sen', sans-serif;
+
+
+
+    /* font sizes */
+    --fs-xl-6: 84px;
+    --fs-xl-5: 56px;
+    --fs-xl-4: 46px;
+    --fs-xl-3: 40px;
+    --fs-xl-2: 30px;
+    --fs-large: 28px;
+    --fs-medium: 26px;
+    --fs-small: 24px;
+    --fs-vs: 22px;
+    --fs-vs-2: 21px;
+    --fs-vs-3: 20px;
+    --fs-vs-4: 19px;
+    --fs-vs-5: 18px;
+    --fs-vs-6: 16px;
+    --fs-vs-7: 14px;
+    --fs-vs-8: 12px;
+
+
+    /* colors */
+    --color-black: #2D3134;
+    --color-dark: #3D3D3D;
+    --color-cream: #FAF8ED;
+    --color-blue: #2E476B;
+    --color-orange: #F66F4D;
+    --color-white: #FDFEFF;
+    --color-gray: #9498A4;
+    --color-gray-2: #676A6C;
+    --color-gray-3: #5B5F62;
+    --color-dark-gray: #939597;
+}
+
+
+/* CSS classes */
+
+/* font families */
+
+.ff-Poppins {
+    font-family: var(--ff-Poppins);
+}
+
+.ff-Inter {
+    font-family: var(--ff-Inter);
+}
+
+.ff-Sen {
+    font-family: var(--ff-Sen);
+}
+
+/* font sizes */
+
+.fs-xl-6 {
+    font-size: var(--fs-xl-6);
+}
+
+.fs-xl-5 {
+    font-size: var(--fs-xl-5);
+}
+
+.fs-xl-4 {
+    font-size: var(--fs-xl-4);
+}
+
+.fs-xl-3 {
+    font-size: var(--fs-xl-3);
+}
+
+.fs-xl-2 {
+    font-size: var(--fs-xl-2);
+}
+
+.fs-large {
+    font-size: var(--fs-large);
+}
+
+.fs-medium {
+    font-size: var(--fs-medium);
+}
+
+.fs-small {
+    font-size: var(--fs-small);
+}
+
+.fs-vs {
+    font-size: var(--fs-vs);
+}
+
+.fs-vs-2 {
+    font-size: var(--fs-vs-2);
+}
+
+.fs-vs-3 {
+    font-size: var(--fs-vs-3);
+}
+
+.fs-vs-4 {
+    font-size: var(--fs-vs-4);
+}
+
+.fs-vs-5 {
+    font-size: var(--fs-vs-5);
+}
+
+.fs-vs-6 {
+    font-size: var(--fs-vs-6);
+}
+
+.fs-vs-7 {
+    font-size: var(--fs-vs-7);
+}
+
+.fs-vs-8 {
+    font-size: var(--fs-vs-8);
+}
+
+/* colors */
+
+.color-black{
+    color: var(--color-black);
+}
+.color-dark{
+    color: var(--color-dark);
+}
+.color-cream{
+    color: var(--color-cream);
+}
+.color-blue{
+    color: var(--color-blue);
+}
+.color-orange{
+    color: var(--color-orange);
+}
+.color-white{
+    color: var(--color-white);
+}
+.color-gray{
+    color: var(--color-gray);
+}
+.color-gray-2{
+    color: var(--color-gray-2);
+}
+.color-gray-3{
+    color: var(--color-gray-3);
+}
+.color-dark-gray{
+    color: var(--color-dark-gray);
+}
