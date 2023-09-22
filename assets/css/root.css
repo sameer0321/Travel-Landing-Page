@@ -154,3 +154,6 @@
 .color-dark-gray{
     color: var(--color-dark-gray);
 }
+.bg-cream{
+    background-color: var(--color-cream);
+}

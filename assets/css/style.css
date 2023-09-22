@@ -1,0 +1,117 @@
+@import url("/assets/css/root.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.custom-container {
+    max-width: 1170px !important;
+}
+
+/* .custom-container-2{
+    max-width: 1305px !important;
+    margin-right: 0;
+} */
+
+.slider2 .slick-list {
+    overflow: visible;
+    z-index: 1;
+}
+
+.paragraph-1 {
+    max-width: 370px;
+}
+
+.paragraph-2 {
+    max-width: 400px;
+}
+
+
+
+/* other */
+.border-radius-85 {
+    border-radius: 85px;
+}
+
+.border-radius-16 {
+    border-radius: 16px;
+}
+
+.content {
+    padding: 12px;
+}
+
+.slick-slide {
+    margin-right: 30px;
+}
+
+.prev {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #2D3134;
+}
+
+.next {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #2D3134;
+}
+
+.position-1 {
+    top: 2%;
+    right: 19%;
+}
+
+.position-2 {
+    top: 2%;
+    right: 15%;
+}
+
+
+/* buttons */
+
+.button2 {
+    border: 1px solid #2D3134;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+/* padding,margin & gap */
+.padding {
+    padding: 12px 16px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.pl-12 {
+    padding-left: 12px;
+}
+
+.pt-14 {
+    padding-top: 14px;
+}
+
+/* cards */
+
+.box {
+    max-width: 386px;
+    height: 100%;
+    border-radius: 16px;
+    border: 2px solid #FFFFFF;
+
+}
