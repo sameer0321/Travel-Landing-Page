@@ -35,6 +35,9 @@ padding: 12px 20px;
 .pt-74{
     padding-top: 74px;
 }
+.pb-74{
+    padding-bottom: 74px;
+}
 .p-20-28{
     padding: 20px 28px !important;
 }
@@ -60,9 +63,37 @@ background: rgba(255, 255, 255, 0.70);
 max-width: 166px;
 padding: 30px 23px 26px 28px;
 }
+.sec-card{
+    border-radius: 30px;
+background: #FFD482;
+max-width: 1170px;
+}
+input{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-left: 26px;
+    min-width: 40%;
+    border-radius: 12px;
+background: #FFF;
+border: none;
+}
+.sec-svg{
+    position: absolute;
+    right:34%;
+    bottom: 24%;
+}
 
 .border-right{
     border-right: 1px solid #EAEAEB !important;
+}
+.bg-line{
+    background-image: url(../images/line.png);
+}
+/* max-weidth */
+.paragraph-1{
+    max-width: 393px;
+    margin-left: auto;
+    margin-right: auto;                   
 }
 /* navbar */
 .mobileView {
