@@ -48,6 +48,18 @@ background: #FDFEFF;
 box-shadow: 0px 28px 56px -6px rgba(246, 111, 77, 0.05);
 padding: 10px 11px;
 }
+.m-card{
+    border-radius: 14px;
+background: rgba(255, 255, 255, 0.70);
+max-width: 166px;
+padding: 30px 54px 26px 26px;
+}
+.m-card-2{
+    border-radius: 14px;
+background: rgba(255, 255, 255, 0.70);
+max-width: 166px;
+padding: 30px 23px 26px 28px;
+}
 
 .border-right{
     border-right: 1px solid #EAEAEB !important;
