@@ -17,10 +17,11 @@
     margin-right: 0;
 } */
 
-.slider2 .slick-list {
-    overflow: visible;
-    z-index: 1;
-}
+/* .slider2 .slick-list {
+    overflow: visible !important; 
+    padding: 0 20% 0 0;
+    position: relative;
+} */
 
 .paragraph-1 {
     max-width: 370px;
@@ -30,6 +31,12 @@
     max-width: 400px;
 }
 
+.paragraph-3 {
+    max-width: 467px;
+}
+.paragraph-4{
+    max-width: 473px;
+}
 
 
 /* other */
@@ -44,10 +51,14 @@
 .content {
     padding: 12px;
 }
+.content-2{
+    padding: 30px;
+}
 
 .slick-slide {
     margin-right: 30px;
 }
+
 
 .prev {
     width: 54px;
@@ -65,6 +76,37 @@
     border: 1px solid #2D3134;
 }
 
+.prev2 {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #2D3134;
+}
+
+.next2 {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #2D3134;
+}
+.prev3 {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #2D3134;
+}
+
+.next3 {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #2D3134;
+}
+
 .position-1 {
     top: 2%;
     right: 19%;
@@ -73,6 +115,25 @@
 .position-2 {
     top: 2%;
     right: 15%;
+}
+
+.position-3 {
+    top: 6%;
+    right: 19%;
+}
+
+.position-4 {
+    top: 6%;
+    right: 15%;
+}
+.position-5 {
+    bottom: 22%;
+    right: 21%;
+}
+
+.position-6 {
+    bottom: 22%;
+    right: 17%;
 }
 
 
@@ -85,7 +146,7 @@
 }
 
 /* padding,margin & gap */
-.padding {
+.padding-2 {
     padding: 12px 16px;
 }
 
@@ -113,5 +174,11 @@
     height: 100%;
     border-radius: 16px;
     border: 2px solid #FFFFFF;
+}
 
+.box2 {
+    max-width: 537px;
+    height: 283px;
+    border-radius: 14px;
+    background: #FFF;
 }
