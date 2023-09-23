@@ -7,6 +7,7 @@
     box-sizing: border-box;
     text-decoration: none !important;
     list-style-type: none;
+    transition: all 200ms linear;
 }
 /* btn */
 .button1{
@@ -18,6 +19,9 @@ background-color: transparent;
 /* padding */
 .padding-1{
 padding: 12px 20px;
+}
+.paragraph-2{
+    max-width: 141px;
 }
 .pl-24{
     padding-left: 24px;
@@ -44,6 +48,9 @@ padding: 12px 20px;
 .pb-84{
     padding-bottom: 84px;
 }
+.ml-10{
+    margin-left: 10px;
+}
 /* card */
 .j-card{
     max-width: 500px !important;
@@ -68,6 +75,23 @@ padding: 30px 23px 26px 28px;
 background: #FFD482;
 max-width: 1170px;
 }
+.f-footer-boder{
+    background-color: transparent;
+    border: 1px solid #5B5F62;
+    border-radius: 50%;
+    padding: 13px;
+    align-items: center;
+}
+.f-footer-boder:hover{
+  border: 1px solid #F66F4D;
+}
+.f-footer-boder:hover> svg path{
+    fill: #F66F4D;
+}
+.f-footer-boder> svg path{
+fill:#5B5F62;
+}
+
 input{
     padding-top: 23px;
     padding-bottom: 23px;
