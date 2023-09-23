@@ -15,7 +15,7 @@
     --fs-xl-2: 30px;
     --fs-large: 28px;
     --fs-medium: 26px;
-    --fs-small: 24px;
+    --fs-small: 19px;
     --fs-vs: 22px;
     --fs-vs-2: 21px;
     --fs-vs-3: 20px;
@@ -33,6 +33,7 @@
     --color-blue: #2E476B;
     --color-orange: #F66F4D;
     --color-white: #FDFEFF;
+    --color-white-2: #FFFFFF;
     --color-gray: #9498A4;
     --color-gray-2: #676A6C;
     --color-gray-3: #5B5F62;
@@ -142,6 +143,9 @@
 .color-white{
     color: var(--color-white);
 }
+.color-white-2{
+    color: var(--color-white-2);
+}
 .color-gray{
     color: var(--color-gray);
 }
@@ -158,3 +162,8 @@
     background-color: var(--color-cream);
 }
 
+@media(min-width:1200px){
+    :root{
+        --fs-small:24px;
+    }
+}
