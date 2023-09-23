@@ -359,6 +359,26 @@ padding: 30px 23px 26px 28px;
 background: #FFD482;
 max-width: 1170px;
 }
+/* footer */
+.f-footer-boder{
+    background-color: transparent;
+    border: 1px solid #5B5F62;
+    border-radius: 50%;
+    padding: 13px;
+    align-items: center;
+}
+.f-footer-boder:hover{
+  border: 1px solid #F66F4D;
+}
+.f-footer-boder:hover> svg path{
+    fill: #F66F4D;
+}
+.f-footer-boder> svg path{
+fill:#5B5F62;
+}
+.bg-line{
+    background-image: url(../images/line.png);
+}
 
 @media(min-width:470px) {
     .mobileView {
