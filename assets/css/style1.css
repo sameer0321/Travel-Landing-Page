@@ -169,6 +169,9 @@ border: none;
 .rotate3 {
     display: none !important;
 }
+.overflow-hidden{
+    overflow: hidden;
+}
 @media(min-width:470px) {
     .mobileView {
         display: flex;
