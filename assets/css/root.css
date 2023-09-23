@@ -8,8 +8,8 @@
 
 
     /* font sizes */
-    --fs-xl-6: 84px;
-    --fs-xl-5: 56px;
+    --fs-xl-6: 65px;
+    --fs-xl-5: 44px;
     --fs-xl-4: 46px;
     --fs-xl-3: 40px;
     --fs-xl-2: 30px;
@@ -162,6 +162,12 @@
     background-color: var(--color-cream);
 }
 
+@media(min-width:576px){
+    :root{
+        --fs-xl-6: 84px;
+        --fs-xl-5: 56px;
+    }
+}
 @media(min-width:1200px){
     :root{
         --fs-small:24px;
